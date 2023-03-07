@@ -1,5 +1,5 @@
 {
-  "name": "@when3meet/types",
+  "name": "@when3meet/common",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",

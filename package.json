@@ -1,14 +1,12 @@
 {
   "name": "when3meet",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Monorepo for When3Meet – SOFTENG750 MERN application",
-  "main": "index.js",
-  "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/when3meet-types",
-    "packages/when3meet-service",
-    "packages/when3meet-client"
+    "packages/common",
+    "packages/service",
+    "packages/client"
   ],
   "scripts": {
     "build": "yarn workspaces run build"
