@@ -1,0 +1,14 @@
+{
+  "name": "@when3meet/types",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}

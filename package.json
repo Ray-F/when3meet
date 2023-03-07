@@ -6,6 +6,11 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/when3meet-types",
+    "packages/when3meet-service",
+    "packages/when3meet-client"
+  ],
+  "scripts": {
+    "build": "yarn workspaces run build"
+  }
 }
