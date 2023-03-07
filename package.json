@@ -1,0 +1,11 @@
+{
+  "name": "when3meet",
+  "version": "0.0.1",
+  "description": "Monorepo for When3Meet – SOFTENG750 MERN application",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
